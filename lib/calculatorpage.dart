@@ -42,7 +42,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
         children: <Widget>[
           Expanded(
             child: Container(
-              padding: const EdgeInsets.all(20),
+              padding: const EdgeInsets.all(30),
               alignment: Alignment.bottomRight,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -50,11 +50,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 children: [
                   Text(
                     _input,
-                    style: const TextStyle(fontSize: 50, color: Colors.black),
+                    style: const TextStyle(fontSize: 60, color: Colors.black),
                   ),
                   Text(
                     _output,
-                    style: const TextStyle(fontSize: 30, color: Colors.black54),
+                    style: const TextStyle(fontSize: 40, color: Colors.black54),
                   ),
                 ],
               ),
