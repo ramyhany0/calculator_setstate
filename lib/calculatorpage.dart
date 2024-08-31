@@ -56,15 +56,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     _output,
                     style: const TextStyle(fontSize: 30, color: Colors.black54),
                   ),
-                  /* Text(
-                    result,
-                    style: const TextStyle(fontSize: 30, color: Colors.blue),
-                  ), */
                 ],
               ),
             ),
           ),
-          //const Divider(height: 1, color: Colors.grey),
           Expanded(
             flex: 2,
             child: Container(
